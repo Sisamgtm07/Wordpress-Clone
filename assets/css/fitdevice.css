@@ -87,3 +87,27 @@ LANG SECTION
     }
 
 }
+
+@media screen and (max-width:800px){
+    /*-----------------------
+    COMMUNITY
+    ------------------------*/
+    .community .community-descp{
+        position: absolute;
+        top: 35%;
+        left: 15%;
+    }
+    .community p{
+        margin: auto;
+        font-size: 18px;
+        max-width: 60rem;
+        margin-bottom: 20px;
+    
+    }
+    .community h1{
+        font-size: 50px;
+        font-weight: 200;
+        margin-bottom: 20px;
+    }
+    }
+    
