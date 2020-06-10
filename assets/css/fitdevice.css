@@ -110,4 +110,14 @@ LANG SECTION
         margin-bottom: 20px;
     }
     }
-    
+
+    /*----------------------
+KNOW MORE
+----------------------*/
+@media screen and (max-width: 992px) {
+    .container .container-info .info-item {
+        flex: 50%;
+        max-width: 50%;
+    }
+  }
+  
