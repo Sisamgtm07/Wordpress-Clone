@@ -1,0 +1,64 @@
+/*----------------
+HEADER
+-----------------*/
+@media screen and (min-width:780px) and (max-width:915px){
+    .header,
+    .navbar{
+        width: 95%;
+        margin: auto;
+    }
+}
+
+/*--------------------
+RESPONSIVE MENU
+--------------------*/
+
+@media screen and (max-width:780px){
+    .navbar .nav-list .menu-btn,
+    .hamburger,
+    .sm-wrapper{
+        display: block;
+    }
+    .header{
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar{
+        display: block;
+    }
+    .navbar .nav-list{
+        display: none;
+        position: absolute;
+        background-color: #23282D;
+        left: 0;
+        height: auto;
+        width: 34%;
+        text-align: left;
+        padding-left: 35px;
+        padding-top: 20px;
+    }
+    .navbar .nav-list li{
+        padding-bottom: 35px;
+    }
+
+
+    .button{
+        display: none;
+    }
+    .header-info .logo{
+        margin-bottom: 5px;
+    }
+    .search-bar{
+        display: flex;
+        margin-top: 0;
+        padding-bottom:5px ;
+    }
+
+    .search-bar .fa-search{
+        left: 68%;
+        margin-top: 17px;
+    }
+    .search-bar input{
+        margin: auto;
+    }t 
+}
