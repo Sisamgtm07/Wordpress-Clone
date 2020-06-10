@@ -121,3 +121,24 @@ KNOW MORE
     }
   }
   
+
+    /*----------------------
+  FOOTER
+  -----------------------*/
+
+  @media screen and (max-width:970px){
+    .footer-wrapper .footer-item{
+        flex:33.333333%;
+    }
+
+    .navbar .nav-link{
+        padding-right: 10px;
+    }
+
+  }
+
+  @media screen and (max-width:650px){
+    .footer-wrapper .footer-item{
+        flex:50%;
+    }
+  }
