@@ -163,4 +163,198 @@ FEED FOR SMALL DEVICE
     font-size: x-large;
     font-weight: 400;
   }
+
+  
+/*------------------
+FEED
+------------------*/
+.welcome-home {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #0073aa;
+    color: #ffffff;
+  }
+  
+  .welcome-home h1 {
+    font-size: 80px;
+    font-weight: 200;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-home p,
+  .intro p,
+  .showcase p,
+  .features .feature-info > p,
+  .getWP p {
+    margin: auto;
+    font-size: 25px;
+    max-width: 45rem;
+    font-weight: 100;
+  }
+  
+  /*---------------------
+  LANGUAGE SECTION
+  ---------------------*/
+  
+  .lang {
+    background-color: rgba(171, 233, 171, 0.774);
+    color: black;
+    width: 75%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /*---------------------
+  INTRO
+  ---------------------*/
+  .intro p {
+    text-align: center;
+    margin: 70px auto;
+  }
+  
+  /*---------------------
+  DASHBOARD
+  ---------------------*/
+  
+  .dashboard {
+    max-width: 80%;
+    margin: auto;
+    position: relative;
+  }
+  
+  .dashboard .dashboard-img,
+  .dashboard .iphone {
+    max-width: 80%;
+    margin: auto;
+  }
+  .dashboard .iphone {
+    position: absolute;
+    right: 10%;
+    height: 80vh;
+    top: 17%;
+  }
+  
+  
+  /*----------------------
+  SHOWCASE
+  -----------------------*/
+  .showcase {
+    text-align: center;
+    position: relative;
+    margin: auto;
+    background-color: white;
+  }
+  
+  .showcase .showcase-info {
+    position: absolute;
+    width: 100%;
+    top: -80px;
+    background-color: white;
+  }
+  .showcase h2,
+  .features h1,
+  .getWP h1 {
+    font-size: 50px;
+    font-weight: 200;
+    padding-top: 80px;
+    margin-bottom: 20px;
+  }
+  .showcase .showcase-info p {
+    padding-bottom: 30px;
+  }
+  
+  .showcase .discover {
+      margin: 80px auto;
+    }
+    .showcase .discover a {
+      text-decoration: none;
+      color: rgb(29, 114, 133);
+      font-size: 20px;
+      font-weight: 500;
+    }
+    .showcase .discover a:hover {
+      text-decoration: underline;
+    }
+    
+    .showcase .discover::after {
+      content: "";
+      border-bottom: 2px solid rgb(236, 228, 216);
+      position: absolute;
+      width: 80%;
+      text-align: center;
+      bottom: -4%;
+      right: 10%;
+    }
+  
+  
+    /*-----------------------------
+    COLLAGE
+    -----------------------------*/
+  .collage {
+    background: url("https://s.w.org/images/home/collage-min.jpg?6");
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  
+  
+  /*-------------------------
+  FEATURE
+  -------------------------*/
+  
+  .features .feature-info {
+    text-align: center;
+  }
+  .features h1 {
+    padding-top: 40px;
+  }
+  .feature-service {
+    width: 70%;
+    margin: auto;
+    padding-top: 80px;
+    text-align: center;
+  }
+  
+  .feature-service .service-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  
+  .feature-service ul li {
+    border-bottom: 1px solid #eee;
+  }
+  .feature-service ul li:not(:nth-child(4n)) {
+    border-right: 1px solid #eee;
+  }
+  .feature-service .service-list .service-item {
+    flex-grow: 1;
+    width: 25%;
+    padding: 40px;
+  }
+  .feature-service .feature-icon {
+    color: #00a0d2;
+    font-size: 50px;
+  }
+  .feature-service p {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  
+  .feature-descp {
+    margin: auto;
+    font-size: 20px;
+    padding: 40px 0;
+    max-width: 43rem;
+    font-weight: 500;
+    text-align: center;
+    color: rgba(49, 47, 47, 0.856);
+  }
+  .feature-descp a {
+    text-decoration: none;
+    color: rgb(118, 78, 211);
+  }
+  
   
