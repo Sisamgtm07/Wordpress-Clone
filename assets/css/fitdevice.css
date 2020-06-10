@@ -61,4 +61,29 @@ RESPONSIVE MENU
     .search-bar input{
         margin: auto;
     }
+/*-------------------   
+   FEED
+--------------------*/
+    .welcome-home h1{
+        font-size: 60px;    
+     }
+        
+ /*------------------------
+    FEATURES
+-----------------------*/
+    .feature-service .service-list .service-item{
+        width: 50%;
+        
+    }
+}
+
+/*----------------
+LANG SECTION
+-----------------*/
+@media screen and (max-width:1070px){
+    .lang{
+        margin: 0;
+        width: 100%;
+    }
+
 }
