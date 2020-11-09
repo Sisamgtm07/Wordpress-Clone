@@ -1,4 +1,3 @@
-![](https://images.app.goo.gl/bFGEdomMvt6QsAT47)
 # Wordpress-Clone
 > Clone Template of [WordPress](https://wordpress.com/)
 # Tech Stack
